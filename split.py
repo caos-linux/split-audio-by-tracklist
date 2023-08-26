@@ -59,12 +59,6 @@ def main():
 
     # create a template of the ffmpeg call in advance
     cmd_string = "ffmpeg -hide_banner -i \'{tr}\' -vn -acodec copy -ss {st} -to {en} \'{nm}\'" + original_track_ext
-    
-#    for i in range(len(start)):
-#        s='{:02d}'.format(i+1) + ' - ' + name.pop(0)
-#        command = cmd_string.format(tr=original_track, st=start.pop(0), en=end.pop(0), nm=s)    
-#        # use subprocess to execute the command in the shell
-#        subprocess.call(command, shell=True)
 
     i = 1
     for st,en,nm in zip(start, end, name):
