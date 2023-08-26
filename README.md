@@ -4,7 +4,9 @@ The script splits a big audio file into a set of tracks with varying lengths, ac
 
 This is a modified version of the script "split.py" found here: https://unix.stackexchange.com/questions/280767/how-do-i-split-an-audio-file-into-multiple .
 
-usage: ./split.py <original_track> <track_list>
+usage: 
+
+`./split.py <original_track> <track_list>`
 
 where
 
